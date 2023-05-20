@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div.body_container {
+    /*border: 5px solid red;*/
+    width: 80;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 2em 3em;
+  
+  }
+  .main_container{
+      /*border: 5px solid blue;*/
+      width: 80;
+      margin: 0 auto;
+      
+      overflow: auto;
+     /* box-shadow: 10px 10px;*/
+      
+  }
+  header.header {
+    /*border: 5px solid red;
+      margin: 0;
+      padding: 0;*/
+  
+    background-color: grey;
+    position: relative;
+    display: flex;
+    border-bottom: 1px solid;
+  }
+  
+  h1.logo {
+    /*border: 5px solid yellow;*/
+    width: 333px;
+  }
+  .logo:hover{
+      cursor: pointer;
+  }
+  .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  
+  nav.header_nav {
+    /*border: 5px solid peru;*/
+    width: 100%;
+    position: relative;
+    /*left: 290px;*/
+  }
+  ul.top {
+    /*border: 5px solid green;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.469);
+  }
+  
+  ul.bottom {
+    /*border: 5px solid rgb(128, 0, 96);*/
+    position: relative;
+    /*top: 0px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  li {
+    display: inline-block;
+    align-items: center;
+    /*border: 2px solid white;*/
+    line-height: 3em;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 1.5em;
+  }
+  li:hover {
+    cursor: pointer;
+    /*background-color: rgba(0, 195, 255, 0.177);*/
+  }
+  a {
+    color: white;
+    padding: 5px 15px;
+    text-decoration: none;
+  }
+  .topList:hover{
+      background-color: rgb(114, 185, 205);
+      padding-right: 25px;
+  }
+  .botList:hover{
+      transform: scale(1.5);
+  }
+  .botList{
+  
+  }
+  .slideswhow{
+     
+      height: 300px;
+  }
+  .cycle-slideshow{
+      /* border: 5px solid greenyellow;*/
+      width: 100%;
+      height: 820px;
+      /*background-color: gray;*/
+      margin-bottom: 10px;
+  }
+  .cycle-slideshow img{
+      width: 100%;
+      height: 100%;
+  }
+   aside{
+    display: flex;
+    padding: 10px;
+  }
+  main {
+    width: 100%;
+    /*border: 5px solid rgb(0, 149, 255);*/
+  }
+  div.hero {
+    /*border: 5px solid red;*/
+    width: 150%;
+    padding-bottom: 5px;
+    margin-right: 5px;
+    
+  }
+  div.logo_gif {
+    /*border: 5px solid rgb(0, 255, 85);*/
+  }
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+  .logo_gif img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  #statementContent{
+      /*border: 5px solid rgb(206, 21, 21);*/
+      width: 100%;
+      height: 360px;
+      /*background-color: gray;*/
+      color: black;
+      display: flex;
+      justify-content: space-between;
+  }
+  .section{
+      /*border: 5px solid rgb(0, 0, 0);*/
+      width: 100%;
+      text-align: center;
+      font-size: 20px;
+      font-variant: small-caps;
+      /*padding: 10px;*/
+      position: relative;
+      background-repeat: no-repeat;
+      /*background-size: contain;*/
+      height: 345px;
+      margin-right: 10px;
+      overflow: hidden;
+  }
+  
+  .section p{
+      font-size: 20px;
+      font-variant: normal;
+      margin-top: 15px;
+      text-shadow: 1px 1px white;
+   
+  }
+  .visionOverlay{
+      color: white;
+  }
+  .missionOverlay, .visionOverlay, .goalOverlay{
+      background-color: rgba(255, 255, 255, 0..5);
+      position: absolute;
+      top: 310px;
+      overflow: hidden;
+      -webkit-transition: all 1s ease-in-out .2s;
+      -moz-transition: all 1s ease-in-out.2s;
+      -ms-transition: all 1s ease-in-out .2s;
+      -o-transition: all 1s ease-in-out .2s;
+      transition: all 1s ease-in-out .2s;
+  }
+  .missionOverlay:hover, .visionOverlay:hover, .goalOverlay:hover{
+      height: 500px;
+      top: 0;
+  }
+  .section.one{
+      background-image: url('../images/mission.png');
+      background-size: cover;
+      
+  }
+  .section.two{
+      background-image: url('../images/vision.png');
+      background-size: cover;
+  }
+  .section.three{
+      background-image: url('../images/goal.png');
+      background-size: cover;
+  }
+  .sign_desc,.chat_desc {
+    font-size: 50px;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-align: center;
+    
+  }
+  
+  div.sign_desc, div.sign_pic {
+    /*border: 5px solid red;*/
+    width: 80%;
+    margin-top: 15px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    
+  
+  }
+  .sign_desc {
+    background-color: grey;
+    font-family: sans-serif;
+    font-variant: normal;
+    color: rgb(36, 36, 63);
+    font-size: 40px;
+    padding: 50px;
+  }
+  .sign_pic img,
+  .logo_gif {
+    width: 100%;
+    height: 100%;
+    /*object-fit: cover;*/
+  }
+  aside.thumbnail-slide{
+      display: flex;
+      /*border: 5px solid green;*/
+  
+  
+  }
+  aside.thumbnail-slide img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      
+  }
+  aside.chat{
+      background-color: gray;
+      margin: auto;
+  }
+  .chat_pic {
+    /*border: 5px solid yellow;*/
+    width: 40%;
+  }
+  .chat_pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .chat_desc {
+    /*border: 5px solid rgb(0, 255, 85);*/
+    width: 40%;
+    background-color: none;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-variant: normal;
+    color: white;
+    font-size: 30px;
+    padding: 50px;
+    
+  }
+  hr{
+      width: 50%;
+      margin: auto;
+      color: black;
+  }
+  .leaderboard img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+  }
+  footer {
+      background-color: rgba(0, 0, 0, 0.765);
+  }
+  ul.footer {
+    text-align: center;
+  }
